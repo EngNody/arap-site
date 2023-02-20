@@ -1,0 +1,127 @@
+
+/* <!-- =========================================================== -->
+<!-- ======================  ali way =========================== -->
+<!-- =========================================================== --> */
+
+#section9 .controlfield{
+    /* border:2px solid #6f163a; */
+width: 70%;
+display: flex;
+justify-content:space-between;
+margin:50px auto;
+align-items: center;
+
+}
+@media (max-width:900px) {
+  #section9 .controlfield{
+    /* border:2px solid #6f163a; */
+width: 90%;
+display: block;
+/* margin: auto; */
+text-align: center;
+align-items: center;
+
+}
+#section9 .spansfield{
+margin:40px auto;
+
+}
+}
+
+
+.slideshowbox{
+    /* border:2px solid #1003fd; */
+    width: 800px;
+    height: 500px;
+position: relative;
+margin: auto;
+text-align: center;
+
+}
+.slideshowbox .bigimg{
+    /* border:2px solid #e905f9; */
+    width: 800px;
+    height: 500px;
+margin:auto !important;
+position: absolute;
+top: 0;
+left: 0;
+}
+.activeimage{
+z-index: 100;
+}
+.slideshowbox #slidetext{
+  background-color: rgba(72, 72, 248, 0.803);
+  position: absolute;
+  top: 50px;
+  left: 10%;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 25px;
+z-index: 1000 !important;
+}
+
+.controlfield button{
+  all: unset;
+  background-color: rgba(72, 72, 248, 0.803);
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.controlfield button:hover{
+  background-color: rgb(72, 72, 248);
+
+}
+.controlfield button:disabled{
+  background-color: rgb(216, 215, 215);
+color: #000;
+cursor: not-allowed;
+transform: translateX(0) !important;
+
+}
+#activebuttonpre:active{
+    transform: translateX(-5px);
+}
+#activebuttonnext:active{
+    transform: translateX(5px);
+}
+.controlfield .slideshowspan:hover{
+    background-color: rgb(72, 72, 248) !important;
+    color: white;
+  
+  }
+#section9 .spansfield{
+  /* border:2px solid #fa82b2; */
+width: 50%;
+display: flex;
+justify-content:space-between;
+
+}
+#section9 .spansfield span{
+  /* border:2px solid #030bf3; */
+width: 30px;
+text-align: center;
+background-color: rgb(216, 215, 215);
+border-radius: 10px;
+padding: 5px;
+}
+
+.activespan{
+  background-color: royalblue !important;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+

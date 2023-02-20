@@ -1,0 +1,98 @@
+
+
+.darkbody{
+    background-color: rgb(86 2 2);
+    color:#fff !important;
+}
+
+
+.darkheader{
+        background-color: rgb(18 0 0 / 51%);
+}
+
+.mytargetdark{
+color: rgba(255, 255, 0, 0.942) !important;
+background-color: rgb(188, 178, 248) !important;
+}
+
+.mytargetdark:hover{
+    box-shadow: 0 0 30px yellow;
+    }
+
+.sectionsdark{
+/* background-color: rgba(126, 81, 81, 0.99) !important; */
+background-color: rgba(114, 53, 53, 0.99) !important;
+color: white !important;
+
+}
+
+
+.myaddbuttondark{
+    background-color: rgb(86 2 2)  !important;
+}
+.myaddbuttondark:hover{
+    box-shadow: 0 0 30px yellow !important;
+
+}
+
+.section4dark{
+    border-top: 7px solid white;
+
+}
+
+.thetitle{
+    border-bottom: 3px solid white !important;
+}
+.darkbody #section99{
+    color: #000;
+}
+
+  .section2 .daark .cart{
+background-color: rgb(86 2 2) !important;
+  color: white;
+}
+
+.section2 .daark .cart button {
+    background-color: rgb(244, 175, 206) !important;
+    color: rgb(5, 5, 5) !important;
+}
+
+.mydark{
+    color: black !important;
+}
+
+
+.myfavbutton1dark{
+background-color: white !important;
+color: black !important;
+
+}
+
+.sectionsdark h3{
+    color: white !important;
+}
+
+.darkbody #section9 a{color: #000; text-decoration: none;}
+
+
+.darkbody #section10{
+    color: aliceblue;
+}
+
+.darkbody .countries .spanactive,.darkbody .countries span:hover{
+    background-color: rgba(199, 59, 59, 0.51);  
+    box-shadow: 0 0 10px white;
+    color:white;
+    padding: 20px;
+    opacity: 1;
+
+    }
+
+.darkbody #section11 h1,.darkbody #section11 h3,.darkbody #section11 li{
+    background-color:#560202 ;
+    color: white ;
+}
+
+
+
+
